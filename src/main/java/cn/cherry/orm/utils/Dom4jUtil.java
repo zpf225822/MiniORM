@@ -11,7 +11,6 @@ import org.dom4j.io.SAXReader;
 /**
  * 基于dom4j的工具类
  */
-@Slf4j
 public class Dom4jUtil {
 
     /**

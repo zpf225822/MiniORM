@@ -18,7 +18,6 @@ import java.util.Set;
 /*
     使用反射解析实体类中注解的工具类
  */
-@Slf4j
 public class AnnotationUtil {
 
 
