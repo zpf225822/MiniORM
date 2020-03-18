@@ -3,6 +3,7 @@ package cn.cherry.orm.utils;
 import java.io.File;
 import java.util.*;
 
+import com.sun.istack.internal.NotNull;
 import lombok.extern.slf4j.Slf4j;
 import org.dom4j.Document;
 import org.dom4j.Element;
@@ -85,7 +86,7 @@ public class Dom4jUtil {
      * @param document xml文档对象
      * @return 返回一个Map集合
      */
-    public static Map<String, String> ElementsID2Map(Document document) {
+    public static Map<String, String> ElementsID2Map(@NotNull Document document) {
         Element classElement = document.getRootElement().element("class");
         Map<String, String> mapping = new HashMap<>();
 

@@ -1,5 +1,6 @@
 package cn.cherry.orm.core;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.util.HashMap;
@@ -9,6 +10,7 @@ import java.util.Map;
  * 封装存储映射信息
  */
 @Data
+@Builder
 public class Mapper {
 
 
